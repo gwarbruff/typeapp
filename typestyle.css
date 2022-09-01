@@ -1,0 +1,75 @@
+﻿
+:root
+{
+    --bgcolor: red;
+    --textcolor: brown;
+    --scriptcolor: grey;
+    --barcolor: purple;
+    --titlecolor: black;
+}
+
+body
+{
+    margin:0px;
+    background-color:var(--bgcolor);
+}
+
+.text
+{
+    color:var(--textcolor);
+}
+
+#title
+{
+    height:60px;
+    text-align:center;
+    padding:30px;
+    background-color:var(--barcolor);
+    margin:auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:50px;
+}
+
+#main {
+    display: flex;
+    flex-direction:column;
+    height:100%;
+    text-align:center;
+    justify-content:center;
+    align-content:center;
+}
+
+#typefield 
+{
+    height:4vw;
+    width:25vw;
+    color:var(--textcolor);
+    background-color: var(--bgcolor);
+    border-color:var(--barcolor);
+    border-width:1px;
+    text-align:center;
+    font-size:30px;
+}
+
+#tscript
+{
+    margin:20px;
+    display:flex;
+    flex-wrap:wrap;
+    align-content:flex-start;
+    justify-content:center;
+    height:40vh;
+    padding:10px;
+    overflow:hidden;
+    line-height:1.2;
+}
+
+word
+{
+    margin:1px;
+    margin-left:3px;
+    margin-right:3px;
+    color:var(--textcolor);
+    font-size:8vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
